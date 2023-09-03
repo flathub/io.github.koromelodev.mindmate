@@ -21,3 +21,9 @@ modules:
       - type: archive
         url: https://github.com/KoromeloDev/MindMate/archive/refs/tags/v1.5.0-beta.tar.gz
         sha256: 4ad54c6cae527ff29468737b4ede2ae771c413c814aded4ee27875fa0d20d218
+        x-checker-data:
+          type: json
+          url: https://api.github.com/repos/KoromeloDev/MindMate/tags
+          version-query: map(.name | select(test("^v[\\d\\.]+-beta$"))) | first
+          url-query: '"https://github.com/KoromeloDev/MindMate/archive/refs/tags/"
+            + $version + ".tar.gz"'
