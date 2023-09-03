@@ -1,4 +1,3 @@
----
 app-id: io.github.koromelodev.mindmate
 runtime: org.kde.Platform
 runtime-version: '6.5'
@@ -19,8 +18,8 @@ modules:
       - -DFLATPAK=true
     sources:
       - type: archive
-        url: https://github.com/KoromeloDev/MindMate/archive/refs/tags/v1.5.0-beta.tar.gz
-        sha256: 4ad54c6cae527ff29468737b4ede2ae771c413c814aded4ee27875fa0d20d218
+        url: https://github.com/KoromeloDev/MindMate/archive/refs/tags/v1.5.2-beta.tar.gz
+        sha256: a46ed73f3448330dbdc2666a44524ce7c1415095f40c6260fb9d8673690abaab
         x-checker-data:
           type: json
           url: https://api.github.com/repos/KoromeloDev/MindMate/tags
