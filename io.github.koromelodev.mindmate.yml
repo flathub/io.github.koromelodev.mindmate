@@ -18,8 +18,8 @@ modules:
       - -DFLATPAK=true
     sources:
       - type: archive
-        url: https://github.com/KoromeloDev/MindMate/archive/refs/tags/v1.6.0-beta.tar.gz
-        sha256: ecb2c0d6a60555ef0477f7d937643e7ff968fd724330c5b1c5571f8d827a75f3
+        url: https://github.com/KoromeloDev/MindMate/archive/refs/tags/v1.6.1-beta.tar.gz
+        sha256: 3e03330a4f194b1d4de5169921afaec79d348a40d434fe5c0db60b06b161c679
         x-checker-data:
           type: json
           url: https://api.github.com/repos/KoromeloDev/MindMate/tags
